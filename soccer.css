@@ -1,0 +1,64 @@
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+    line-height: 1.7;
+    color: #333333;
+    background-color: #f7f9fa; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: hsl(210, 97%, 29%); 
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #dd0000; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+
+h2 {
+    color: hsl(210, 97%, 29%); 
+    border-left: 6px solid hsl(210, 97%, 29%); 
+    border-bottom: 1px solid #cccccc; 
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #dd0000; 
+    font-size: 1.3rem;
+}
+
+.player-card {
+    background-color: #5c565610;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px; 
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+}
+
+
+ul, ol {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+li {
+    margin-bottom: 10px;
+}
