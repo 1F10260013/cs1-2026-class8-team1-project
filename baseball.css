@@ -87,3 +87,32 @@ h2.title{
     padding-left: 20px;
     font-weight: bold;
 }
+
+#baseball_team>p{
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.league{
+    font-size: 23px;
+    font-weight: bold;
+    color: #1C7629;
+}
+
+#kyuudan{
+    padding-left: 80px;
+}
+
+/*球団一覧*/
+.name li{
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    right: 40px;
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
