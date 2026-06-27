@@ -33,23 +33,28 @@ li.text_white{
 }
 
 #ruleinfor{
+    /*詳細*/
     margin-left: 70px;
+    background-color: white;
+    padding: 20px;
 }
 
 .content{
-    margin-left: 200px;
+    /*文章全体*/
+    margin-left: 230px;
     margin-right: 50px;
+    margin-top: 50px;
 }
 
-#rule h2{
+h2.title{
+    font-size: 28px;
+    border-bottom: solid 3px #1C7629;
+    position: relative;
+    left: 30px;
     padding-left: 80px;
 }
 
-.title{
-    font-size: 28px;
-    border-bottom: solid 3px #1C7629;
-}
-
+/*URL*/
 .mokuji{
     color: white;
     text-decoration: none;
@@ -59,4 +64,16 @@ li.text_white{
 .mokuji:visited{
     color: white;
     text-decoration: none;
+}
+
+.midasi{
+    display: inline-block;
+    background-color: #E0F8E3;
+    width: 800px;
+    border-radius: 10px;
+    color: #1C7629;
+    font-size: 23px;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: bold;
 }
