@@ -47,4 +47,16 @@ li.text_white{
 
 .title{
     font-size: 28px;
+    border-bottom: solid 3px #1C7629;
+}
+
+.mokuji{
+    color: white;
+    text-decoration: none;
+}
+
+.mokuji:link,
+.mokuji:visited{
+    color: white;
+    text-decoration: none;
 }
