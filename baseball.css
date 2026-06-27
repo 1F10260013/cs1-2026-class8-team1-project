@@ -1,7 +1,26 @@
 body{
     background-color: #8ED973;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
 }
 
 .text_white{
     color: white;
+}
+
+#table_of_contents{
+    background-color: #C04F15;
+    border-radius: 30px;
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+#mokuji{
+    position: relative;
+    text-align: center;
 }
