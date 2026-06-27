@@ -20,6 +20,7 @@ h1{
     height: 200px;
     margin-left: 10px;
     border: solid 5px white;
+    position: fixed;
 }
 
 #mokuji{
@@ -29,4 +30,21 @@ h1{
 
 li.text_white{
     line-height: 3;
+}
+
+#ruleinfor{
+    margin-left: 70px;
+}
+
+.content{
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+#rule h2{
+    padding-left: 80px;
+}
+
+.title{
+    font-size: 28px;
 }
