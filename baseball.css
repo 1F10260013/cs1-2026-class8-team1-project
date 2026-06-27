@@ -15,7 +15,7 @@ h1{
     padding-bottom: 20px;
     padding-top: 20px;
     z-index: 1000;
-    border-bottom: white solid 3px;
+    border-bottom: rgb(215, 215, 215) solid 3px;
 }
 
 .text_white{
