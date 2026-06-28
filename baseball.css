@@ -26,13 +26,14 @@ h1{
 #table_of_contents{
     background-color: #C04F15;
     border-radius: 30px;
-    width: 150px;
-    height: 200px;
+    width: 220px;
+    height: 300px;
     margin-left: 10px;
     border: solid 5px white;
     position: fixed;
 }
 
+/*「目次」*/
 #mokuji{
     position: relative;
     text-align: center;
@@ -128,7 +129,7 @@ h2.title{
 /*球団一覧*/
 .name li{
     background-color: white;
-    width: 250px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
     margin-top: 20px;
@@ -144,12 +145,31 @@ h2.title{
 }
 
 .team li{
-    text-align: center;
     font-size: 18px;
+    text-align: center;
 }
 
 /*球団名*/
 .teamname{
     font-size: 28px;
     font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+/*球場名*/
+li>p{
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
+
+.long{
+    display: flex;
+    flex-direction: column;
+}
+
+.long_back{
+    position: relative;
+    left: 54px;
 }
