@@ -93,12 +93,34 @@ h2.title{
     font-size: 20px;
 }
 
+/*リーグ名*/
 .league{
     font-size: 23px;
     font-weight: bold;
-    color: #1C7629;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
 }
 
+#kyuudan>li{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sleague{
+    background-color: #0F8E2E;
+}
+
+#pleague{
+    background-color: #3FB1E5;
+}
+
+/*セ・リーグandパ・リーグ一覧*/
 #kyuudan{
     padding-left: 80px;
 }
@@ -106,13 +128,28 @@ h2.title{
 /*球団一覧*/
 .name li{
     background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
     margin-top: 20px;
     position: relative;
     right: 40px;
+    list-style: none;
 }
 
 .team{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.team li{
+    text-align: center;
+    font-size: 18px;
+}
+
+/*球団名*/
+.teamname{
+    font-size: 28px;
+    font-weight: bold;
 }
