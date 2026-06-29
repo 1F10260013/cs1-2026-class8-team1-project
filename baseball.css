@@ -6,7 +6,8 @@ body{
 
 h1{
     font-size: 40px;
-    background-color: #8ED973;
+    background-color: #1C7629;
+    color: white;
     position: fixed;
     top: 0;
     margin: 0;
@@ -172,4 +173,16 @@ li>p{
 .long_back{
     position: relative;
     left: 54px;
+}
+
+/*野球場の写真*/
+#plasephoto{
+    width: 300px;
+    height: 300px;
+}
+
+/*ポジションの写真*/
+#positionphoto{
+    width: 400px;
+    height: 400px;
 }
