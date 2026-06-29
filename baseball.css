@@ -176,13 +176,34 @@ li>p{
 }
 
 /*野球場の写真*/
+#basic{
+    position: relative;
+}
+
 #plasephoto{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 600px;
+    bottom: 5px;
 }
 
 /*ポジションの写真*/
+#position{
+    position: relative;
+}
+
+#positioninfor{
+    width: 300px;
+    height: 300px;
+    padding-top: 100px;
+    line-height: 2;
+}
+
 #positionphoto{
     width: 400px;
     height: 400px;
+    position: absolute;
+    left: 400px;
+    bottom: 5px;
 }
