@@ -152,15 +152,8 @@ h2.title{
 }
 
 /*球団名*/
-.teamname{
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block;
-}
-
 .teamname1{
-    font-size: 30px;
+    font-size: 29px;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -172,18 +165,17 @@ li p.kyuujyou{
     text-align: left;
     position: relative;
     left: 20px;
+    top: 30px;
 }
 
 .long{
     display: flex;
     flex-direction: column;
-    position: relative;
-    right: 50px;
 }
 
 .long_back{
     position: relative;
-    left: 35px;
+    left: 54px;
 }
 
 /*野球場の写真*/
