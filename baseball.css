@@ -168,6 +168,7 @@ h2.title{
     top: 20px;
     color: #001444;
     background-color: rgba(255,255,255,0.75);
+    z-index: 10;
 }
 
 /*球場名*/
