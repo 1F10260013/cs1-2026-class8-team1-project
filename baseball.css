@@ -159,8 +159,16 @@ h2.title{
     display: inline-block;
 }
 
+.teamname1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 0px;
+}
+
 /*球場名*/
-li>p{
+li p.kyuujyou{
     text-align: left;
     position: relative;
     left: 20px;
@@ -169,11 +177,13 @@ li>p{
 .long{
     display: flex;
     flex-direction: column;
+    position: relative;
+    right: 50px;
 }
 
 .long_back{
     position: relative;
-    left: 54px;
+    left: 35px;
 }
 
 /*野球場の写真*/
@@ -189,15 +199,13 @@ li>p{
     bottom: 5px;
 }
 
-/*巨人ボール*/
-#kyojinn{
-    position: relative;
-}
-
-#kyojinnball{
+/*ボール*/
+.ball{
     position: absolute;
-    bottom: 50px;
-    right: 30px;
+    bottom: 150px;
+    right: 70px;
+    width: 150px;
+    height: 150px;
 }
 
 /*ポジションの写真*/
